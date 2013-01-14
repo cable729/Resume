@@ -54,7 +54,10 @@ namespace Resume
             } };
         } }
 
-        public dynamic Education = new { };
+        public dynamic Education = new {
+            Name = "University of Nebraska-Lincoln", Majors = new[] { "Computer Science", "Mathematics" },
+            GPA = "3.0", Start = new DateTime(2011, 8, 17), Graduation = new DateTime(2015, 5, 5)
+        };
 
         internal event EventHandler OnHire;
         public bool Hire(EventArgs hireArgs) { this.OnHire(this, hireArgs); return true; }
