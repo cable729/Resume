@@ -17,17 +17,16 @@ namespace Resume
             "I welcome an environment where I am challenged every day and look forward to " +
             "learning new technologies, making lasting connections, and having fun.";
 
-        public IEnumerable<string> Interests { get { return new[] {
+        public IEnumerable<string> Interests = new[] {
             "C#", "Software Architecture", ".NET", "Dependency Injection & IoC",
-            "MVC 4", "C++", "Game Development", "Mobile Development", "Git", "TFS" };
-        } }
-
-        public IEnumerable<string> Skills { get { return new[] {
+            "MVC 4", "C++", "Game Development", "Mobile Development", "Git", "TFS"
+        };
+        public IEnumerable<string> Skills= new[] {
             "C#", ".NET", "PowerShell", "Git", "TFS", "EntityFramework", "XNA", "XAML",
-            "MVC", "MVVM", "XML", "Java", "C++", "LaTeX", "Html", "CSS", "Javascript", "UNIX" };
-        } }
+            "MVC", "MVVM", "XML", "Java", "C++", "LaTeX", "Html", "CSS", "Javascript", "UNIX"
+        };
 
-        public dynamic PreviousWork { get { return new {
+        public dynamic PreviousWork = new {
             Locabal = new {
                 Start = new DateTime(2012, 8, 24), CurrentlyEmployed = true,
                 Description = "Back-end architecture lead for www.locabal.com. Locabal is a " +
@@ -53,14 +52,15 @@ namespace Resume
                 Description = "Helped students with computer science homework and provided "+
                     "technical maintanence for the CSE department.",
                 Technologies = new string[] { "C++", "Java", "Matlab", "Unix", "Algorithms" }
-            } };
-        } }
+            }
+        };
 
         public string[] HighSchoolProjects = new[] { "XNA Development for Zune: Snake",
-            "iOS: Objective-C, C++, cocos2d", "Warcraft III Mods: Run Kitty Run, Chase the Ent"
+            "iOS: Objective-C, C++, cocos2d", "Warcraft III Mods: Run Kitty Run, Chase the Ent",
+            "Took two C++ and one Java community college while in high school"
         };
-        public string[] CollegeInvolvement = new[] {
-            "ACM Programming Comptetition x2", "UNL Gaming Club"
+        public string[] CollegeInvolvement = new[] { "ACM Programming Comptetition 2011 & 2012",
+            "UNL Gaming Club"
         };
 
         public dynamic Education = new {

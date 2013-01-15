@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Resume
 {
-    public interface IHirable { IEnumerable<string> Skills { get; } }
-    public interface IPassionate { IEnumerable<string> Interests { get; } }
+    public interface IHirable { }
+    public interface IPassionate { }
     public interface INetDeveloper /* : IDisposable // ha ha */ { }
     public interface IStudent { }
 }
