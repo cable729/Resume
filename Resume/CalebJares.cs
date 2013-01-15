@@ -21,7 +21,7 @@ namespace Resume
             "C#", "Software Architecture", ".NET", "Dependency Injection & IoC",
             "MVC 4", "C++", "Game Development", "Mobile Development", "Git", "TFS"
         };
-        public IEnumerable<string> Skills= new[] {
+        public IEnumerable<string> Skills = new[] {
             "C#", ".NET", "PowerShell", "Git", "TFS", "EntityFramework", "XNA", "XAML",
             "MVC", "MVVM", "XML", "Java", "C++", "LaTeX", "Html", "CSS", "Javascript", "UNIX"
         };
