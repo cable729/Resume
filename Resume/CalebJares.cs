@@ -5,7 +5,7 @@ namespace Resume
 {
 #region Select_This_Region_To_Print
     /// <summary> An object-oriented resume written by Caleb Jares </summary>
-    /// <seealso cref="https://github.com/cable729/Resume"/>
+    /// <seealso cref="https://github.com/cable729/Resume" />
     public class CalebJares : INetDeveloper, IStudent, IPassionate, IHirable
     {
         public dynamic ContactInformation = new {
