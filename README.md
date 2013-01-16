@@ -1,7 +1,7 @@
 Resume
 ======
 
-This is Caleb Jares' resume. It is in an unconventional format, and the resume is a C# source file.
+This is Caleb Jares' resume. It is in an unconventional format, and the resume is a C# source file. Oh yeah, and it compiles.
 
 #How to Print
 1. Install [Visual Studio 2012 Productivity Tools](http://visualstudiogallery.msdn.microsoft.com/d0d33361-18e2-46c0-8ff2-4adea1e34fef). Color printing is broken at this stage.
