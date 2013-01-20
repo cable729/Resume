@@ -9,7 +9,7 @@ namespace Resume
     public class CalebJares : INetDeveloper, IStudent, IPassionate, IHirable
     {
         public dynamic ContactInformation = new {
-            Email = new Uri(@"cjares@cse.unl.edu"), Phone = "970-590-3046"
+            Email = new Uri("cjares@cse.unl.edu"), Phone = "970-590-3046"
         };
 
         public const string Objective = "To obtain a full-time internship for the summer of 2013 " +
@@ -50,7 +50,7 @@ namespace Resume
             UNL_Avery_Hall = new {
                 Start = new DateTime(2011, 11, 11), End = new DateTime(2012, 5, 1),
                 Description = "Helped students with computer science homework and provided "+
-                    "technical maintanence for the CSE department.",
+                    "technical maintenance for the CSE department.",
                 Technologies = new[] { "C++", "Java", "Matlab", "Unix", "Algorithms" }
             }
         };
@@ -60,7 +60,7 @@ namespace Resume
             "Took two C++ and one Java community college while in high school"
         };
         public string[] CollegeInvolvement = new[] { "ACM Programming Comptetition 2011 & 2012",
-            "UNL Gaming Club"
+            "UNL Gaming Club", "UNL Math Club", "UNL Hive"
         };
 
         public dynamic Education = new {
