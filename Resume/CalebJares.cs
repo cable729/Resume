@@ -65,7 +65,7 @@ namespace Resume
 
         public dynamic Education = new {
             Name = "University of Nebraska-Lincoln", Majors = new[] { "Computer Science", "Mathematics" },
-            GPA = "3.0", Start = new DateTime(2011, 8, 17), Graduation = new DateTime(2015, 5, 5)
+            GPA = "3.1", Start = new DateTime(2011, 8, 17), Graduation = new DateTime(2015, 5, 5)
         };
     }
 #endregion
